@@ -1,0 +1,27 @@
+{
+    "name": "codeweird/kulfi-php",
+    "description": "Real-time API gateway for next-gen apps",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Codeweird",
+            "email": "support@codeweird.in"
+        }
+    ],
+	"homepage": "https://github.com/codeweird/kulfi-php",
+    "require": {
+        "php": ">=7.1",
+		"arthurkushman/php-wss": "^1.6",
+        "ext-pcntl": "*"
+    },
+	"config": {
+	  "platform": {
+		"ext-pcntl": "7.3"
+	  }
+	},
+	"autoload": {
+        "psr-4": {"codeweird\\Kulfi\\": "src/"}
+    },
+    "minimum-stability": "stable"
+}
